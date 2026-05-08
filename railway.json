@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "docker",
+    "dockerfile": "apps/api/Dockerfile",
+    "context": "."
+  },
+  "deploy": {
+    "service": "api"
+  }
+}
